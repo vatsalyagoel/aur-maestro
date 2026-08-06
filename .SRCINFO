@@ -1,6 +1,6 @@
 pkgbase = maestro
 	pkgdesc = Mobile UI testing framework
-	pkgver = 2.7.0
+	pkgver = 2.8.0
 	pkgrel = 1
 	url = https://maestro.dev
 	arch = any
@@ -10,7 +10,7 @@ pkgbase = maestro
 	depends = java-runtime-headless>=17
 	conflicts = maestro-bin
 	conflicts = maestro-dev
-	source = maestro-2.7.0.tar.gz::https://github.com/mobile-dev-inc/maestro/archive/refs/tags/cli-2.7.0.tar.gz
-	sha256sums = 6ff65eba63ec4910df59ddb1007044f964753c3b4a66464447c6676594809c0b
+	source = maestro-2.8.0.tar.gz::https://github.com/mobile-dev-inc/maestro/archive/refs/tags/cli-2.8.0.tar.gz
+	sha256sums = 9e262ba025a32c295e4454360ca9ed295a5784e0a6a5acd7b375a7f5d858bd5a
 
 pkgname = maestro
