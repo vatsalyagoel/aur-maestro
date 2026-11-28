@@ -1,5 +1,5 @@
 pkgname=maestro
-pkgver=2.7.0
+pkgver=2.13.0
 pkgrel=1
 pkgdesc='Mobile UI testing framework'
 arch=('any')
@@ -9,7 +9,7 @@ depends=('bash' 'java-runtime-headless>=17')
 makedepends=('java-environment>=17')
 conflicts=('maestro-bin' 'maestro-dev')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/mobile-dev-inc/maestro/archive/refs/tags/cli-${pkgver}.tar.gz")
-sha256sums=('6ff65eba63ec4910df59ddb1007044f964753c3b4a66464447c6676594809c0b')
+sha256sums=('e1a494fba5e6df5613e6e90b8c8570365bf34a57dd14f9fe93b3148a9609a932')
 
 build() {
   cd "Maestro-cli-${pkgver}"
